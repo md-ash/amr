@@ -1,0 +1,54 @@
+*{
+margin: 0px;
+    padding: 0px;
+}
+
+
+.nav{
+    width: 55%;
+    min-height: 50px;
+    background:black;
+   
+  
+   
+    
+}
+
+.nav ul{
+    display: flex;
+     float: right;
+   
+}
+.nav a{
+    text-decoration: none;
+    
+}
+.nav li{
+    list-style: none;
+   
+}
+.nav ul li a{
+    color:white;
+    margin: 0px 10px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+     margin-right: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    
+   
+}
+.nav ul li a:hover{
+    background:red;
+    
+}
+.nav ul li.active{
+    background:red;
+}
+.img{
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-repeat:no-repeat;
+}
